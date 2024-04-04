@@ -92,7 +92,7 @@ def z8_3():
     _, _, w1, h1 = txt.textbbox((0, y1), name_text, font=font)
     txt.text(((w - w1)/2, y1), name_text, (b, c, d), font=font)
     card_im.show()
-    card_im.save("card.png")
+    card_im.save("card1.png")
 
 z8_3()
 
